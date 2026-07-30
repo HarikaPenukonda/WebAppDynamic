@@ -1,0 +1,50 @@
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#f4f4f4;
+        }
+
+        .container{
+            width:450px;
+            margin:50px auto;
+            background:white;
+            padding:20px;
+            border-radius:8px;
+            box-shadow:0 0 10px lightgray;
+        }
+
+        h2{
+            text-align:center;
+            color:#333;
+            margin-bottom:25px;
+        }
+
+        .row{
+            display:flex;
+            margin-bottom:15px;
+        }
+
+        .label{
+            width:150px;
+            font-weight:bold;
+        }
+
+        .value{
+            color:#555;
+        }
+
+        .btn{
+            display:block;
+            width:120px;
+            margin:25px auto 0;
+            padding:10px;
+            background:#007bff;
+            color:white;
+            text-decoration:none;
+            text-align:center;
+            border-radius:5px;
+        }
+
+        .btn:hover{
+            background:#0056b3;
+        }
